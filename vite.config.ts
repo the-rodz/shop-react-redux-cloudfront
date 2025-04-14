@@ -13,6 +13,10 @@ export default defineConfig({
     },
   },
   plugins: [react()],
+  build: {
+    outDir: path.resolve(__dirname, 'cdk/resources/dist'),
+    emptyOutDir: true,
+  },
   test: {
     globals: true,
     environment: "jsdom",

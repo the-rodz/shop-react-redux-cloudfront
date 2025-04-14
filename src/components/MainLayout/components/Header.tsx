@@ -33,7 +33,7 @@ export default function Header() {
             underline="none"
             to="/"
           >
-            My Store!
+            My Vinyl Store! (CDK Deployment)
           </Link>
         </Typography>
 
