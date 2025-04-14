@@ -38,34 +38,25 @@ Runs tests in console, in browser or with coverage.
 
 Runs linting and formatting for all files in `src` folder.
 
-### `client:deploy`, `client:deploy:nc`
+### `cdk:synth`
 
-Deploy the project build from `dist` folder to configured in `serverless.yml` AWS S3 bucket with or without confirmation.
+Runs `cdk synth` command to take CDK code and convert it into a CloudFormation template.
 
-### `client:build:deploy`, `client:build:deploy:nc`
+### `cdk:bootstrap`
+Bootstraps CDK code for AWS deployment.
 
-Combination of `build` and `client:deploy` commands with or without confirmation.
+### `cdk:deploy`
+Deploys project to a S3 Bucket with a CloduFront distribution in AWS. This script internally runs `build` script. 
 
-### `cloudfront:setup`
+### `cdk:destroy`
+Destroys all related AWS resources.
 
-Deploy configured in `serverless.yml` stack via CloudFormation.
+## Link to deployed resources - Assignment 2
 
-### `cloudfront:domainInfo`
+### Manual Deployment Version:
+Link:
+https://d22xly9tdst5zv.cloudfront.net/
 
-Display cloudfront domain information in console.
-
-### `cloudfront:invalidateCache`
-
-Invalidate cloudfront cache.
-
-### `cloudfront:build:deploy`, `cloudfront:build:deploy:nc`
-
-Combination of `client:build:deploy` and `cloudfront:invalidateCache` commands with or without confirmation.
-
-### `cloudfront:update:build:deploy`, `cloudfront:update:build:deploy:nc`
-
-Combination of `cloudfront:setup` and `cloudfront:build:deploy` commands with or without confirmation.
-
-### `serverless:remove`
-
-Remove an entire stack configured in `serverless.yml` via CloudFormation.
+### Automated Deployment Version: 
+Link:
+https://d2zhnbnr2iyna4.cloudfront.net/
