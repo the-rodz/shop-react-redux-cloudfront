@@ -4,7 +4,7 @@ const API_PATHS = {
   import: "https://k96x73rxtc.execute-api.us-west-1.amazonaws.com/prod",
   bff: "https://.execute-api.eu-west-1.amazonaws.com/dev",
   cart: "https://.execute-api.eu-west-1.amazonaws.com/dev",
-  bffV2: "https://ew7p4ug5wl.execute-api.us-west-1.amazonaws.com/prod",
+  bffV2: "https://txshcl3ja3.execute-api.us-west-1.amazonaws.com/prod",
 };
 
 export default API_PATHS;
